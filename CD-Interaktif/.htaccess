@@ -1,0 +1,24 @@
+#
+# Media Pembelajaran Transmisi Otomatis Berbasis Facebook
+# Untuk Mahasiswa Pendidikan Teknik Otomotif Fakultas Teknik
+# Universitas Negeri Malang
+#
+
+DirectoryIndex index.php
+
+Options -indexes
+
+AddType text/cache-manifest .appcache
+
+<Files cache.appcache>
+ExpiresActive On
+ExpiresDefault "access"
+</Files>
+
+
+<IfModule mod_setenvif.c>
+<IfModule mod_headers.c>
+BrowserMatch MSIE ie
+Header set X-UA-Compatible "IE=Edge"
+</IfModule>
+</IfModule>
