@@ -1,146 +1,45 @@
-Bentuk Pengembangan CD-Interaktif Sederhana
+DAFTAR RUJUKAN
 
-Implementasi HTML5 Sederhana dan Facebook Plugin
+2009. Online connectivity monitoring. (Online), (http://www.github.com/remy/html5demos),
+2010. jquery.fancybox-1.3.4. (Online) (http://fancybox.net/), diakses tanggal 3 Oktober 2010.
 
-- Pengembangan Media Pembelajaran Transmisi Otomatis berbasis Facebook untuk Mahasiswa Pendidikan
-	Teknik Otomotif Jurusan Teknik Mesin Fakultas Teknik Universitas Negeri Malang
+2011. HTML5 Presentation. 'HTML JS canvas 2D. (Online), (http://www.html5rocks.com/),
 
-Homepage	: http://transmisi-otomatis.appspot.com
-E-mail		: pto.ft.um@gmail.com
+2011. Javascript SDK. (Online), (http://developers.facebook.com/docs/reference/javascript/), 
 
+Amb/Hut. 2001. Basic 4 PSG Day Release. Penerbit : Training Center Astra International
 
+Bobleah. HTML5 code example: Intelligently store Images in localStorage. (https://www.ibm.com/developerworks/mydeveloperworks/blogs/bobleah?lang=en), (Online),
 
-F:\CD-INTERAKTIF
-+---apache
-¦   +---bin
-¦   +---conf
-¦   ¦   +---extra
-¦   ¦   +---ssl.crl
-¦   ¦   +---ssl.crt
-¦   ¦   +---ssl.csr
-¦   ¦   +---ssl.key
-¦   +---error
-¦   ¦   +---include
-¦   +---icons
-¦   ¦   +---small
-¦   +---logs
-¦   +---modules
-+---htdocs
-¦   +---core
-¦   +---file
-¦   +---fonts
-¦   +---forbidden
-¦   +---images
-¦   +---restricted
-¦   +---script
-¦   +---static
-¦   +---swf
-+---source
+Developing and deploying on Google App Engine. (Online), (http://www.youtube.com/watch?v=bfgO-LXGpTM), 
 
--------------------------------------------------------
-F:\CD-INTERAKTIF\HTDOCS\STATIC
-    evaluasi.html
-    hydraulic-control-system.html
-    pendahuluan.html
-    pengembangan-materi-pembelajaran.html
-    planetary-gear-unit.html
-    torque-converter.html
--------------------------------------------------------	
-	
-	
-F: [Your Disk/CD/DVD Name]
+Furchan, Arief. 1982. Pengantar Penelitian dalam Pendidikan. Malang : Usaha Nasional
 
+Gay, L. R. 1987. Education research, Competencies for analysis and application. Third edition. Columbus: Merrill Publishing Company.
 
-¦
-+---CD-Interaktif
-    ¦   apache_start.bat
-    ¦   apache_stop.bat
-    ¦   bigThankYou.txt
-    ¦
-    +---apache
-    ¦   +---bin
-    ¦   ¦
-    ¦   +---conf
-    ¦   ¦   ¦
-    ¦   ¦   +---extra
-    ¦   ¦   +---ssl.crl
-    ¦   ¦   +---ssl.crt
-    ¦   ¦   +---ssl.csr
-    ¦   ¦   +---ssl.key
-    ¦   +---error
-    ¦   ¦   ¦
-    ¦   ¦   +---include
-    ¦   ¦           bottom.html
-    ¦   ¦           spacer.html
-    ¦   ¦           top.html
-    ¦   ¦
-    ¦   +---icons
-    ¦   ¦   ¦
-    ¦   ¦   +---small
-    ¦   ¦
-    ¦   +---logs
-    ¦   ¦
-    ¦   +---modules
-    ¦
-    +---htdocs
-    ¦   ¦   .htaccess
-    ¦   ¦   cache.appcache
-    ¦   ¦   favicon.ico
-    ¦   ¦   index.php
-    ¦   ¦
-    ¦   +---core
-    ¦   ¦       .script
-    ¦   ¦
-    ¦   +---file
-    ¦   ¦       historyFrame.html
-    ¦   ¦       index.txt
-    ¦   ¦       test_kemampuan_AT.pdf
-    ¦   ¦
-    ¦   +---fonts
-    ¦   ¦       DroidSans-Bold.ttf
-    ¦   ¦       DroidSans.ttf
-    ¦   ¦       DroidSansMono.ttf
-    ¦   ¦       League_Gothic-webfont.eot
-    ¦   ¦       League_Gothic-webfont.svg
-    ¦   ¦       League_Gothic-webfont.ttf
-    ¦   ¦       League_Gothic-webfont.woff
-    ¦   ¦
-    ¦   +---forbidden
-    ¦   ¦       .htaccess
-    ¦   ¦       .htpasswd
-    ¦   ¦       readme.auth_remote.txt
-    ¦   ¦
-    ¦   +---images
-    ¦   ¦
-    ¦   +---restricted
-    ¦   ¦       index.html
-    ¦   ¦       user_pwd.sql
-    ¦   ¦
-    ¦   +---script
-    ¦   ¦
-    ¦   +---static
-    ¦   ¦       evaluasi.html
-    ¦   ¦       hydraulic-control-system.html
-    ¦   ¦       pendahuluan.html
-    ¦   ¦       pengembangan-materi-pembelajaran.html
-    ¦   ¦       planetary-gear-unit.html
-    ¦   ¦       torque-converter.html
-    ¦   ¦
-    ¦   +---swf
-    ¦           Hydraulic-Control-System.ogg
-    ¦           isa.swf
-    ¦           menu_isa.swf
-    ¦           pendahuluan.ogg
-    ¦           planetary-gear-set.swf
-    ¦           Planetary-Gear-Unit.ogg
-    ¦           playerProductInstall.swf
-    ¦           soal-evaluasi.swf
-    ¦           torque-converter.ogg
-    ¦
-    +---source
-            design-uji-coba.cdr
-            Komponen-Transmisi.fla
-            menu_isa.fla
-            planetary gear set isa.fla
-            test1 Preferences.cpr
-            test1.cptx
+Hung, David. 2010. jQuery Window Plugin, (http://fstoke.me/jquery/window/), (Online),
+
+Jan van den Akker. Principles and Methods of Development Research. University of Twente.
+
+Kerlinger, F. N. 2000. Asas-asas penelitian behavioral. Terjemahan: Foundation
+behavioral research, oleh: Simatupang, L. R., & Koesoemanto, H. J. Yogyakarta:
+Gadjah Mada University Press.
+
+Linda Fogg Phillips, Derek Baird, M.A., & BJ Fogg, Ph.D. Facebook for Educators.
+
+McCall, R. B. 1975. Fundamental statistics for psychology, second edition. New York:
+Harcourt Brace Jovanovich, Inc.
+
+Santayasa, I Wayan. 2009. Metode Penelitian dan Pengembangan Modul. Universitas Pendidikan Ganesha
+
+Sexton, Alex. yepnope. (https://github.com/SlexAxton/yepnope.js/archives/master), (Online), 
+
+Stringer, R. T. 1996. Action research: A handbook for practitioners. London:
+International Educational and Profesional Publisher.
+
+Sudjana, Nana. 1990. Penilaian Hasil Belajar Mengajar. Bandung : Remadja 
+Rosda Karya
+
+Tim Puslitjaknov. Metode Penelitian dan Pengembangan. 2008: Pusat Penelitian kebijakan dan inovasi pendidikan badan penelitian dan pengembangan pendidikan nasional.
+
+Universitas Negeri Malang. 2007. Pedoman Penulisan Karya Ilmiah: Skripsi, Tesis, Disertasi, Makalah, Laporan Penelitian, Edisi Keempat. Malang: Biro Administrasi Akademik, Perencanaan, dan Sistem Informasi Bekerja Sama dengan Penerbit Universitas Negeri Malang.
