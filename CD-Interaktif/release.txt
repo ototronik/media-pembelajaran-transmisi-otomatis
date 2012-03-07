@@ -1,0 +1,146 @@
+Bentuk Pengembangan CD-Interaktif Sederhana
+
+Implementasi HTML5 Sederhana dan Facebook Plugin
+
+- Pengembangan Media Pembelajaran Transmisi Otomatis berbasis Facebook untuk Mahasiswa Pendidikan
+	Teknik Otomotif Jurusan Teknik Mesin Fakultas Teknik Universitas Negeri Malang
+
+Homepage	: http://transmisi-otomatis.appspot.com
+E-mail		: pto.ft.um@gmail.com
+
+
+
+F:\CD-INTERAKTIF
++---apache
+¦   +---bin
+¦   +---conf
+¦   ¦   +---extra
+¦   ¦   +---ssl.crl
+¦   ¦   +---ssl.crt
+¦   ¦   +---ssl.csr
+¦   ¦   +---ssl.key
+¦   +---error
+¦   ¦   +---include
+¦   +---icons
+¦   ¦   +---small
+¦   +---logs
+¦   +---modules
++---htdocs
+¦   +---core
+¦   +---file
+¦   +---fonts
+¦   +---forbidden
+¦   +---images
+¦   +---restricted
+¦   +---script
+¦   +---static
+¦   +---swf
++---source
+
+-------------------------------------------------------
+F:\CD-INTERAKTIF\HTDOCS\STATIC
+    evaluasi.html
+    hydraulic-control-system.html
+    pendahuluan.html
+    pengembangan-materi-pembelajaran.html
+    planetary-gear-unit.html
+    torque-converter.html
+-------------------------------------------------------	
+	
+	
+F: [Your Disk/CD/DVD Name]
+
+
+¦
++---CD-Interaktif
+    ¦   apache_start.bat
+    ¦   apache_stop.bat
+    ¦   bigThankYou.txt
+    ¦
+    +---apache
+    ¦   +---bin
+    ¦   ¦
+    ¦   +---conf
+    ¦   ¦   ¦
+    ¦   ¦   +---extra
+    ¦   ¦   +---ssl.crl
+    ¦   ¦   +---ssl.crt
+    ¦   ¦   +---ssl.csr
+    ¦   ¦   +---ssl.key
+    ¦   +---error
+    ¦   ¦   ¦
+    ¦   ¦   +---include
+    ¦   ¦           bottom.html
+    ¦   ¦           spacer.html
+    ¦   ¦           top.html
+    ¦   ¦
+    ¦   +---icons
+    ¦   ¦   ¦
+    ¦   ¦   +---small
+    ¦   ¦
+    ¦   +---logs
+    ¦   ¦
+    ¦   +---modules
+    ¦
+    +---htdocs
+    ¦   ¦   .htaccess
+    ¦   ¦   cache.appcache
+    ¦   ¦   favicon.ico
+    ¦   ¦   index.php
+    ¦   ¦
+    ¦   +---core
+    ¦   ¦       .script
+    ¦   ¦
+    ¦   +---file
+    ¦   ¦       historyFrame.html
+    ¦   ¦       index.txt
+    ¦   ¦       test_kemampuan_AT.pdf
+    ¦   ¦
+    ¦   +---fonts
+    ¦   ¦       DroidSans-Bold.ttf
+    ¦   ¦       DroidSans.ttf
+    ¦   ¦       DroidSansMono.ttf
+    ¦   ¦       League_Gothic-webfont.eot
+    ¦   ¦       League_Gothic-webfont.svg
+    ¦   ¦       League_Gothic-webfont.ttf
+    ¦   ¦       League_Gothic-webfont.woff
+    ¦   ¦
+    ¦   +---forbidden
+    ¦   ¦       .htaccess
+    ¦   ¦       .htpasswd
+    ¦   ¦       readme.auth_remote.txt
+    ¦   ¦
+    ¦   +---images
+    ¦   ¦
+    ¦   +---restricted
+    ¦   ¦       index.html
+    ¦   ¦       user_pwd.sql
+    ¦   ¦
+    ¦   +---script
+    ¦   ¦
+    ¦   +---static
+    ¦   ¦       evaluasi.html
+    ¦   ¦       hydraulic-control-system.html
+    ¦   ¦       pendahuluan.html
+    ¦   ¦       pengembangan-materi-pembelajaran.html
+    ¦   ¦       planetary-gear-unit.html
+    ¦   ¦       torque-converter.html
+    ¦   ¦
+    ¦   +---swf
+    ¦           Hydraulic-Control-System.ogg
+    ¦           isa.swf
+    ¦           menu_isa.swf
+    ¦           pendahuluan.ogg
+    ¦           planetary-gear-set.swf
+    ¦           Planetary-Gear-Unit.ogg
+    ¦           playerProductInstall.swf
+    ¦           soal-evaluasi.swf
+    ¦           torque-converter.ogg
+    ¦
+    +---source
+            design-uji-coba.cdr
+            Komponen-Transmisi.fla
+            menu_isa.fla
+            planetary gear set isa.fla
+            test1 Preferences.cpr
+            test1.cptx
