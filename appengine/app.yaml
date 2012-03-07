@@ -1,0 +1,67 @@
+application: transmisi-otomatis
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /script/(.*\.js)
+  mime_type: text/javascript
+  static_files: script/\1
+  upload: script/(.*\.js)
+  
+- url: /script/(.*\.css)
+  mime_type: text/css
+  static_files: script/\1
+  upload: script/(.*\.css)
+
+- url: /images/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: images/\1
+  upload: images/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+- url: /static/(.*\.(html|htm))
+  static_files: static/\1
+  upload: static/(.*\.(html|htm))
+  
+- url: /(.*\.txt)
+  mime_type: text/plain
+  static_files: file/\1
+  upload: file/(.*\.txt)
+  
+- url: /swf/(.*\.swf)
+  mime_type: application/x-shockwave-flash
+  static_files: swf/\1
+  upload: swf/(.*\.swf)
+  
+- url: /file/(.*\.(bz2|gz|rar|tar|tgz|zip))
+  static_files: file/\1
+  upload: file/(.*\.(bz2|gz|rar|tar|tgz|zip))  
+  
+- url: /file
+  static_dir: file
+  
+- url: /file/(.*\.(html))
+  static_files: file/\1
+  upload: file/(.*\.(html))
+   
+- url: /fonts/(.*\.ttf)
+  mime_type: font/truetype
+  static_files: fonts/\1
+  upload: fonts/(.*\.ttf)
+  
+- url: /fonts/(.*\.eot)
+  mime_type: application/vnd.ms-fontobject
+  static_files: fonts/\1
+  upload: fonts/(.*\.eot)
+  
+- url: /fonts/(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: fonts/\1
+  upload: fonts/(.*\.woff)
+  
+- url: /fonts/(.*\.(svg|svgz))
+  mime_type: fonts/svg+xml
+  static_files: fonts/\1
+  upload: fonts/(.*\.(svg|svgz))
+    
+- url: /.*
+  script: _isa.py
