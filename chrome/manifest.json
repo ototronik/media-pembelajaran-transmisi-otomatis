@@ -1,0 +1,10 @@
+{
+	"name": "Transmisi Otomatis",
+	"version": "1.0",
+	"description": "Media pembelajaran transmisi otomatis sederhana",
+	"icons": { "128": "source/images/planetary-gear-set.png" },
+	"browser_action": {
+		"default_icon": "source/images/favicon.ico",
+		"popup": "popup.html"
+	}
+}		
